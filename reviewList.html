@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="uft-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="styleSheet.css" />
+  </head>
+  <body>
+    <div>
+      <input
+        type="text"
+        class="searchInput"
+        placeholder="Enter name to search"
+      />
+    </div>
+    <div style="overflow-x: auto; position: relative">
+      <table border="2" id="reviewTable">
+        <thead>
+          <tr class="thead">
+            <td class=".col">Name</td>
+            <td class=".col">Address</td>
+            <td class=".col">Rating</td>
+            <td class=".col">Picture</td>
+            <td class=".col">Actions</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cox's Bazar</td>
+            <td>Chittgong</td>
+            <td>4</td>
+            <td>
+              <img src="/images/one.PNG" height="100" width="100" />
+            </td>
+            <td>
+              <div class="container">
+                <a
+                  class="button"
+                  style="background-color: #0ea5c7"
+                  href="newTouristPlace.html"
+                  >Update</a
+                >
+                <a
+                  class="button"
+                  style="background-color: #b52b09"
+                  href="newTouristPlace.html"
+                  >Delete</a
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Saint Martin</td>
+            <td>Chittgong</td>
+            <td>5</td>
+            <td>
+              <img src="/images/two.PNG" height="100" width="100" />
+            </td>
+            <td>
+              <div class="container">
+                <a
+                  class="button"
+                  style="background-color: #0ea5c7"
+                  href="newTouristPlace.html"
+                  >Update</a
+                >
+                <a
+                  class="button"
+                  style="background-color: #b52b09"
+                  href="newTouristPlace.html"
+                  >Delete</a
+                >
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <a class="button" style="width: 195px" href="newTouristPlace.html"
+        >Create New Tourist Place</a
+      >
+    </div>
+  </body>
+</html>

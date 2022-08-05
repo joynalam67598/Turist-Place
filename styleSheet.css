@@ -1,0 +1,101 @@
+body {
+  height: 100%;
+  width: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.hint {
+  color: red;
+  font-size: small;
+  font-weight: bold;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex: 1, 1, auto;
+}
+.form-inline label {
+  width: 100px;
+}
+.form-inline input {
+  width: 400px;
+  border: 2px;
+  border-style: inset;
+  border-radius: 8px;
+  outline-width: thin;
+  padding: 5px;
+  margin: 10px 5px 10px 0;
+  background-color: #f1f1f1;
+}
+.searchInput {
+  width: 30%;
+  border: 2px;
+  border-style: inset;
+  border-radius: 8px;
+  outline-width: thin;
+  padding: 5px;
+  margin: 10px 5px 10px 0;
+  background-color: #f1f1f1;
+}
+.form-inline select {
+  padding: 5px;
+  margin: 10px 0 10px 0;
+  border: 2px;
+  border-style: inset;
+  border-radius: 8px;
+  width: 414px;
+  background-color: #f1f1f1;
+}
+.button {
+  display: block;
+  text-decoration: none;
+  width: 60px;
+  height: 20px;
+  background-color: #3a92d6;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  margin-top: 10px;
+  border-style: outset;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-inline input[type="file"] {
+  border: 2px solid red;
+}
+.form-inline label {
+  margin: 5 20x 0 0;
+}
+#reviewTable {
+  width: 98%;
+  overflow: auto;
+}
+.thead {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  text-align: center;
+}
+.btn {
+  width: 230px;
+  float: right;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
