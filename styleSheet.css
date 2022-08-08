@@ -6,6 +6,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.col-8 {
+  width: 588px;
+}
 .hint {
   color: red;
   font-size: small;
@@ -15,7 +18,6 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  flex-wrap: nowrap;
   flex: 1, 1, auto;
 }
 .form-inline label {
@@ -69,7 +71,7 @@ body {
   border: 2px solid red;
 }
 .form-inline label {
-  margin: 5 20x 0 0;
+  margin: 5 20px 0 0;
 }
 #reviewTable {
   width: 98%;
