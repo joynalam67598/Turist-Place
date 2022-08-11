@@ -7,12 +7,17 @@ body {
   justify-content: center;
 }
 .col-8 {
-  width: 588px;
+  width: 670px;
 }
-.hint {
+.error-message {
   color: red;
-  font-size: small;
   font-weight: bold;
+}
+.form-inline input.error {
+  border-color: 2px solid red;
+}
+.form-inline select.error {
+  border-color: 2px solid red;
 }
 .form-inline {
   display: flex;
@@ -33,7 +38,7 @@ body {
   margin: 10px 5px 10px 0;
   background-color: #f1f1f1;
 }
-.searchInput {
+.search-input {
   width: 30%;
   border: 2px;
   border-style: inset;
@@ -45,7 +50,7 @@ body {
 }
 .form-inline select {
   padding: 5px;
-  margin: 10px 0 10px 0;
+  margin: 10px 5px 10px 0;
   border: 2px;
   border-style: inset;
   border-radius: 8px;
@@ -67,13 +72,12 @@ body {
   border-style: outset;
   font-family: Arial, Helvetica, sans-serif;
 }
-.form-inline input[type="file"] {
-  border: 2px solid red;
-}
+/* .form-inline input[type="file"] {
+} */
 .form-inline label {
   margin: 5 20px 0 0;
 }
-#reviewTable {
+#review-table {
   width: 98%;
   overflow: auto;
 }
@@ -93,7 +97,7 @@ td {
   text-align: center;
 }
 .btn {
-  width: 230px;
+  width: 295px;
   float: right;
 }
 .title {
