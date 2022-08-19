@@ -7,12 +7,17 @@ body {
   justify-content: center;
 }
 .col-8 {
-  width: 588px;
+  width: 670px;
 }
-.hint {
+.error-message {
   color: red;
-  font-size: small;
   font-weight: bold;
+}
+.form-inline input.error {
+  border-color: 2px solid red;
+}
+.form-inline select.error {
+  border-color: 2px solid red;
 }
 .form-inline {
   display: flex;
@@ -33,7 +38,7 @@ body {
   margin: 10px 5px 10px 0;
   background-color: #f1f1f1;
 }
-.searchInput {
+.search-input {
   width: 30%;
   border: 2px;
   border-style: inset;
@@ -45,7 +50,7 @@ body {
 }
 .form-inline select {
   padding: 5px;
-  margin: 10px 0 10px 0;
+  margin: 10px 5px 10px 0;
   border: 2px;
   border-style: inset;
   border-radius: 8px;
@@ -53,10 +58,8 @@ body {
   background-color: #f1f1f1;
 }
 .button {
-  display: block;
-  text-decoration: none;
-  width: 60px;
-  height: 20px;
+  width: 100px;
+  height: 35px;
   background-color: #3a92d6;
   padding: 5px;
   margin-right: 10px;
@@ -64,16 +67,16 @@ body {
   border-radius: 8px;
   color: white;
   margin-top: 10px;
+  border: 2px;
   border-style: outset;
   font-family: Arial, Helvetica, sans-serif;
 }
-.form-inline input[type="file"] {
-  border: 2px solid red;
-}
+/* .form-inline input[type="file"] {
+} */
 .form-inline label {
   margin: 5 20px 0 0;
 }
-#reviewTable {
+#review-table {
   width: 98%;
   overflow: auto;
 }
@@ -93,11 +96,49 @@ td {
   text-align: center;
 }
 .btn {
-  width: 230px;
+  display: flex;
+  width: 285px;
   float: right;
 }
+.submit-btn {
+  background-color: #31cc36;
+  width: 60px;
+}
+.reset-btn {
+  background-color: #e3a92d;
+  width: 60px;
+}
+
 .title {
   text-align: center;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.back-to-list {
+  width: 820px;
+  justify-content: right;
+  margin-top: 35px;
+  font-family: Georgia;
+}
+
+.back-to-list button {
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+}
+
+#table-div {
+  overflow-x: auto;
+  position: relative;
+  display: none;
+}
+
+.update-btn {
+  background-color: #0ea5c7;
+}
+
+.delete-btn {
+  background-color: #b52b09;
 }
